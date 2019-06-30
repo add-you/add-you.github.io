@@ -1,0 +1,287 @@
+.crumb {
+	height: 25px;
+	margin-top: 20px;
+	font-size: 12px;
+}
+.crumb a {
+	margin: 0 6px;
+}
+.preview_wrap-l {
+	float: left;
+	width: 398px;
+}
+.preview-img {
+	width: 398px;
+	height: 398px;
+	border:1px solid #ccc;
+}
+.preview-list {
+	height: 56px;
+	margin-top: 50px;
+}
+.preview-list li {
+	float: left;
+	height: 56px;
+	margin: 0 5px;
+}
+.preview-list li a img {
+	margin-top: 12px;
+}
+.preview-list .xuanzhong {
+	border: 2px solid #C81623;
+}
+.itemInfo_wrap-r{
+	float: right;
+	width: 718px;
+}
+.sku_name {
+	margin:2px 0 8px 0;
+	font-weight: 700;
+	color: #666;
+}
+.tixing {
+	height: 32px;
+	font-size: 12px;
+	color: #E12228;
+}
+.summary dt {
+	float: left;
+	width: 60px;
+	height: 36px;
+	line-height: 36px;
+	padding-left: 10px;
+	font-size: 12px;
+	color: #666;
+}
+.summary dd {
+	float: left;
+	line-height: 36px;
+	font-size: 12px;
+	color: #666;
+}
+.summary_price {
+	position: relative;
+	height: 36px;
+	padding: 10px 0;
+	background: #FEE9EB;
+}
+.summary_price dd {
+	font-size: 24px;
+	color: #E12228;
+}
+.summary_price dd a {
+	font-size: 12px;
+	color: #E33333;
+}
+.summary_price .frr {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-size: 12px;
+	color: #666;
+}
+.summary_promotion {
+	position: relative;
+	height: 72px;
+	background: #FEE9EB;
+	padding-bottom: 10px;
+}
+.summary_promotion dd {
+	float: left;
+	width: 450px;
+}
+.summary_promotion dd em {
+	display: inline-block;
+	width: 40px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	background: #C81623;
+	color: #fff;
+}
+.summary_support {
+	height: 36px;
+}
+.choose_color {
+	height: 52px;
+}
+.choose_color dd a {
+	display: block;
+	width: 80px;
+	height: 41px;
+	line-height: 41px;
+	margin-right: 3px;
+	border:1px solid #EDEDED;
+	background: #F7F7F7;
+	text-align: center;
+}
+.summary .bred {
+	border: 1px solid #C81623;
+}
+.choose_version {
+	height: 45px;
+}
+.choose_version dd a {
+	display: block;
+	width: 60px;
+	height: 32px;
+	line-height: 32px;
+	margin-right: 3px;
+	border:1px solid #EDEDED;
+	background: #F7F7F7;
+	text-align: center;
+}
+.choose_type {
+	height: 60px;
+}
+.choose_type dd a {
+	display: block;
+	width: 70px;
+	height: 32px;
+	line-height: 32px;
+	margin-right: 3px;
+	padding: 0 5px;
+	border:1px solid #EDEDED;
+	background: #F7F7F7;
+	text-align: center;
+}
+.choose_btns {
+	position: relative;
+	height: 46px;
+}
+.choose_amount {
+	float: left;
+}
+.choose_amount input {
+	width: 33px;
+	height: 45px;
+	border: 1px solid #ccc;
+	outline:none;
+	text-align: center;
+}
+.choose_amount a {
+	width: 16px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	border:1px solid #ccc;
+	background: #f1f1f1;
+}
+.choose_amount .jia {
+	position: absolute;
+	top: 0;
+	left: 34px;
+	border-bottom: none;
+}
+.choose_amount .jian {
+	position: absolute;
+	top: 23px;
+	left: 34px;
+	cursor: not-allowed;
+}
+.choose_btns .go-buy {
+	float: left;
+	width: 142px;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	margin-left: 30px;
+	background: #C81623;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 700;
+}
+.choose_btns .go-buy:hover {
+	color: #E33333;
+}
+.product_detail {
+	margin-top: 60px;
+}
+.aside-l {
+	float: left;
+	width: 208px;
+	border:1px solid #ccc;
+}
+.tab_list {
+	height: 33px;
+}
+.tab_list .hei {
+	float: left;
+	width: 104px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background: #f7f7f7;
+	font-size: 12px;
+	color: #666;
+}
+.tab_list .hong {
+	float:left;
+	width: 103px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	font-size: 12px;
+	color: #FF0000;
+}
+.tab-con {
+	padding: 0 10px;
+}
+.tab-con li {
+	border-bottom: 1px solid #ccc;
+}
+.tab-con li p {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 10px;
+	color: #666;
+}
+.tab-con li h5 {
+	margin-top: 10px;
+	font-size: 12px;
+	color: #666;
+}
+.tab-con li a {
+	display: block;
+	width: 86px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	margin:10px auto;
+	border:1px solid #ccc;
+	background: #f7f7f7;
+	font-size: 12px;
+}
+.detail-r {
+	width: 978px;
+	float: right;
+
+}
+.detail-hd {
+	float: left;
+	width: 976px;
+	border:1px solid #ccc;
+	background: #f7f7f7;
+}
+.detail-hd li a {
+	float: left;
+	height: 39px;
+	line-height: 39px;
+	text-align: center;
+	padding: 0 20px;
+	font-size: 12px;
+}
+.detail-hd .bdred {
+	background: #C81623;
+	color: #fff;
+}
+.detail-bd {
+	float: left;
+	margin:20px 0 0 20px;
+	line-height: 22px;
+	font-size: 12px;
+	color: #666;
+}

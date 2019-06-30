@@ -1,0 +1,288 @@
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?7kkyc2');
+  src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+    url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+    url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.gongyong {
+	font-family: "icomoon"
+}
+.shortcut {
+	height: 31px;
+	line-height: 31px;
+	background: #f1f1f1;
+}
+.fl ul li {
+	float: left;
+	font-size: 12px;
+	color: #666;
+}
+.fl .mianfei {
+	margin-left: 4px;
+}
+.fr ul {
+	float: right;
+	width: 600px;
+}
+.fr ul li {
+	float: left;
+	font-size: 12px;
+}
+.fr .spacer {
+	width: 1px;
+	height: 12px;
+	margin: 9px 12px 0 12px;
+	background: #666;
+}
+.fr .gongyong {
+	font-size: 14px;
+}
+.header {
+	position: relative;
+	height: 105px;
+}
+.logo {
+	position: absolute;
+	top: 25px;
+	left: 0;
+	width: 175px;
+	height: 56px;
+	background: url(../img/logo.png);
+}
+.logo a {
+	display: block;
+	width: 175px;
+	height: 56px;
+	font-size: 0;
+}
+.cearch	{
+	position: absolute;
+	top: 25px;
+	left: 348px;
+}
+.cearch input {
+	float: left;
+	width: 445px;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 10px;
+	border: 2px solid #B1191A;
+	color: #ccc;
+}
+.cearch button {
+	float: left;
+	width: 82px;
+	height: 36px;
+	cursor: pointer;
+	background: #B1191A;
+	border: 0;
+	font-size: 16px;
+	color: #fff;
+}
+.hot {
+	position: absolute;
+	top: 65px;
+	left: 348px;
+}
+.hot a {
+	font-size: 12px;
+	padding: 0 10px;
+}
+.shop {
+	position: absolute;
+	top: 25px;
+	right: 64px;
+	width: 140px;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #DFDFDF;
+	background: #F7F7F7;
+	box-sizing:border-box;
+	
+}
+.shop i {
+	float: right;
+	margin:0 10px 0 5px;
+	font-family: "icomoon"
+}
+.shop p {
+	float: left;
+	margin-left: 10px;
+	font-size: 12px;
+	color: #666;
+} 
+.shop .car {
+	float: left;
+	width: 18px;
+	height: 13px;
+	margin-left: 15px;
+	margin-top: 10px;
+	background: url(../img/icons.png) no-repeat -415px -90px;
+}
+.shop .count {
+	position: absolute;
+	top: -5px;
+	left: 100px;
+	height: 14px;
+	line-height: 14px;
+	padding: 0 3px;
+	text-align: center;
+	background: #e60012;
+	border-radius: 7px 7px 7px 0;
+	font-size: 10px;
+	color: #fff;
+}
+.nav {
+	height: 45px;
+	border-bottom: 2px solid #B1191A;
+}
+.navitems-l {
+	float: left;
+}
+.navitems-r {
+	float: left;
+	margin-left: 10px;
+}
+.navitems-r ul li {
+	float: left;
+}
+.navitems-r ul li a {
+	display: block;
+	height: 45px;
+	padding:0 25px;
+	line-height: 45px;
+	text-align: center;
+}
+.dt {
+	width: 209px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	box-sizing:border-box;
+	background: #B1191A;
+	color: #fff;
+}
+.dd {
+	width: 209px;
+	height: 465px;
+	background: #C81623;
+}
+.dd ul {
+	margin-top: 2px;
+	margin-left: 1px;
+}
+.dd  ul li {
+	height: 31px;
+	line-height: 31px;
+	padding: 0 10px;
+	color: #fff;
+	transition: all .5s;
+}
+.menu:hover {
+	background-color: #fff;
+	padding-left: 20px;
+}
+.menu a {
+	font-size: 14px;
+	color: #fff;
+}
+.menu:hover a {
+	color: #C81623;
+}
+.dd ul li i {
+	float: right;
+	font-family: "icomoon"
+}
+.foot {
+	height: 386px;
+	background: #F5F5F5;
+	padding-top: 30px;
+}
+.service {
+	height: 80px;
+	border-bottom: 1px solid #ccc;
+}
+.service li {
+	float: left;
+	width: 20%;
+	height: 80px;
+}
+.service .jinglin {
+	float: left;
+	width: 49px;
+	height: 49px;
+	margin-left: 35px;
+	background: url(../img/icons.png) no-repeat;
+
+}
+.service .zheng {
+	background-position: -253px -3px; 
+}
+.service .che {
+	background-position: -255px -54px; 
+}
+.service .bao {
+	background-position: -257px -106px; 
+}
+.service .te {
+	background-position: -258px -157px; 
+}
+.service .zhu {
+	background-position: -258px -209px; 
+}
+.service .tit {
+	float: left;
+	margin-left: 5px;
+	font-size: 12px;
+	color: #666;
+}
+.service .tit h5 {
+	margin: 10px 0 5px 0;
+}
+.help {
+	height: 188px;
+	border-bottom:1px solid #ccc;
+}
+.help dl {
+	float: left;
+	width: 150px;
+	height: 177px;
+	margin: 20px 0 0 50px;
+}
+.help dl dt {
+	color: #666;
+}
+.help dl dd {
+	font-size: 12px;
+	color: #999;
+	line-height: 24px;
+}
+.help .erweima img {
+	margin-top: 10px;
+}
+.help .erweima {
+	width: 94px;
+	text-align: center;
+}
+.copyright {
+	text-align: center;
+}
+.copyright p {
+	font-size: 12px;
+	color: #666;
+}
+.copyright .guanyu {
+	margin-top: 20px;
+	
+}
+.copyright .dizhi {
+	margin-top: 20px;
+}

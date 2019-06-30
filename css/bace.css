@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0
+}
+i {
+	font-style: normal;
+}
+a {
+	text-decoration: none;
+	color: #666;
+}
+a:hover {
+	color: #e33333;
+}
+li {
+	list-style: none;
+}
+input,
+button {
+	outline: none;
+}
+.red {
+	color: #c81623;
+}
+.hotred {
+	color: #e33333;
+}
+em {
+	font-style: normal;
+}
+b {
+	font-style: normal;
+}
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
